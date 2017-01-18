@@ -1,2 +1,7 @@
-@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+@import 'https://fonts.google.com/specimen/Ubuntu?selection.family=Ubuntu';
 
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
