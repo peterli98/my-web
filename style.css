@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
 
 * {
 	margin: 0;
@@ -9,7 +9,7 @@
 body {
 	background: #F5F5F5;
 	color: #67727A;
-	font-family:'Ubuntu', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
 	margin: 0;
 }
 
@@ -21,13 +21,15 @@ h2{
 }
 
 p{
-	font-size:150&;
-	line-height:150%;
-	padding 3%;
+	font-size:100%;
+	letter-spacing:1px;
+	font-weight:bold;
+	line-height:200%;
+	padding:3% 10% 3% 10%;
 }
 
 img{
-	max-width :250px;
+	max-width:60%;
 	height:auto;
 	width:auto;
 }
@@ -44,13 +46,86 @@ header{
 }
 
 #logo{
-	margin: 20px;
+	margin: 15px;
 	float: left;
 	width:200px;
 	height:60px;
 	background: url(img/PL.png) no-repeat center;
 }
+/* nav style is starting */
 
+nav{
+	float: right;
+	padding: 25px 20px 0 20px;
+}
+
+#menu-icon{
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(img/nav.png) center;
+}
+
+a:hover#menu-icon{
+	border-radius: 4px 4px 0 0;
+}
+ul{
+	list-style-type: none;
+}
+nav ul li{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 150%;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+nav ul li a{
+	color: #F5F5F5;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color: #C3D7DF;
+}
+
+.current{
+	color: #C3D7DF;
+}
+/*navigation stuff ends */
+
+.banner{
+	width:100%;
+	background-color: #6991AC;
+}
+
+.banner-inner{
+    max-width:1100px;
+	margin:0 auto;
+}
+
+.one-third{
+	width:33.3333333333333333333%;
+	height:350px;
+	float:left;
+	text-align:center;
+}
+
+#education{
+	background-color:#F1AA90;
+}
+
+#interests{
+	background-color:#AADCD2;
+}
+
+#funfacts{
+	background-color:#BEB9AD;
+}
+
+.one-third i{
+	color:#F0F0F0;
+	font-size:500%;
+	padding: 7% 0 4% 0;
+}
 
 
 
