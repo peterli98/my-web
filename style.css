@@ -1,7 +1,57 @@
-@import 'https://fonts.google.com/specimen/Ubuntu?selection.family=Ubuntu';
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 * {
 	margin: 0;
 	padding: 0;
 	border: 0;
 }
+
+body {
+	background: #F5F5F5;
+	color: #67727A;
+	font-family:'Ubuntu', sans-serif;
+	margin: 0;
+}
+
+h2{
+	font-size:150%;
+	line-height:100%;
+	padding-top:5% 0;
+	font-weight:400;
+}
+
+p{
+	font-size:150&;
+	line-height:150%;
+	padding 3%;
+}
+
+img{
+	max-width :250px;
+	height:auto;
+	width:auto;
+}
+
+header{
+	background-color:#6991AC;
+	width: 100%;
+	height: 86px;
+}
+
+#header-inner{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#logo{
+	margin: 20px;
+	float: left;
+	width:200px;
+	height:60px;
+	background: url(img/PL.png) no-repeat center;
+}
+
+
+
+
+
