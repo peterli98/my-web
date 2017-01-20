@@ -106,8 +106,13 @@ nav ul li a:hover{
 }
 
 .banner-inner{
+<<<<<<< HEAD
+	max-width: 1250px;
+	max-height: 595px;
+=======
     max-width:1230px;
 	margin:0 auto;
+>>>>>>> 3e9bc0d5da1f852134cc77afb274d464d2974952
 }
 
 .one-third{
@@ -134,6 +139,7 @@ nav ul li a:hover{
 	font-size:500%;
 	padding: 7% 0 4% 0;
 }
+<<<<<<< HEAD
 
 .inner-wrapper-projects-left{
 	float: left;
@@ -161,3 +167,5 @@ aside{
 #cplusplus2 {
 	background-color: #A2B1C1;
 }
+=======
+>>>>>>> 4b75e4a0e831bf7ad7698d965733f3f782b9afd6
