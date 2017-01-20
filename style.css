@@ -16,15 +16,16 @@ body {
 h2{
 	font-size:150%;
 	line-height:100%;
-	padding-top:5% 0;
+	padding-top:0;
 	font-weight:700;
 }
 
 h3{
-	font-size:120%;
+	font-size:200%;
+	text-align: center;
 	color: #F5F5F5;
 	line-height:100%;
-	padding-top:5% 0;
+	padding-top:1.5%;
 	font-weight:400;
 }
 
@@ -33,7 +34,7 @@ p{
 	letter-spacing:1px;
 	font-weight:bold;
 	line-height:200%;
-	padding:3% 10% 3% 10%;
+	padding:1% 10% 3% 10%;
 }
 
 img{
@@ -106,13 +107,8 @@ nav ul li a:hover{
 }
 
 .banner-inner{
-<<<<<<< HEAD
-	max-width: 1250px;
-	max-height: 595px;
-=======
     max-width:1230px;
 	margin:0 auto;
->>>>>>> 3e9bc0d5da1f852134cc77afb274d464d2974952
 }
 
 .one-third{
@@ -139,7 +135,6 @@ nav ul li a:hover{
 	font-size:500%;
 	padding: 7% 0 4% 0;
 }
-<<<<<<< HEAD
 
 .inner-wrapper-projects-left{
 	float: left;
@@ -149,14 +144,15 @@ nav ul li a:hover{
 
 article{
 	float: left;
-	margin: 0 auto;
 	width: 50%;
 	height: auto;
 }
 
 #cplusplus {
 	background-color: #C3D7DF;
+	
 }
+
 aside{
 	float: right;
 	margin:0 auto;
@@ -167,5 +163,108 @@ aside{
 #cplusplus2 {
 	background-color: #A2B1C1;
 }
-=======
->>>>>>> 4b75e4a0e831bf7ad7698d965733f3f782b9afd6
+
+#android {
+	background-color: #BEB9AD;
+}
+
+#android2 {
+	background-color: #C3D7DF;
+}
+
+#python {
+	background-color: #C3D7DF;
+}
+
+#python2 {
+	background-color: #F1AA90;
+}
+
+#projectdes{
+	color:#F5F5F5;
+	/*--- bigger font size, bigger line spacing, maybe other things */
+}
+
+.inner-wrapper-projects-right{
+	float: left;
+	width:100%;
+	background-color: #C3D7DF;
+}
+
+.inner-wrapper-skills{
+	padding-top:2%;
+	float:left;
+	width:100%;
+	background-color:#C3D7DF;
+}
+
+.half{
+	width:50%;
+	float:left;
+	text-align: center;
+}
+
+/*skills section */
+
+#hardskills{
+	padding-top:1%;
+	background-color: #A2B1C1;
+}
+
+#softskills{
+	padding-top:1%;
+	background-color: #AADCD2;
+}
+
+#skillslist{
+	font-size: 110%;
+	letter-spacing:1.5px;
+	line-height:250%;
+	font-weight:bold;
+	padding-bottom:2%;
+}
+
+/*footer section starts here */
+
+footer{
+	background-color: #6991AC;
+	width: 100%;
+}
+
+.social{
+	list-style-type: none;
+	text-align:center;
+}
+
+.social li{
+	display:inline;
+}
+
+.social i{
+	font-size:460%;
+	margin:1%;
+	padding:5% 5% 2% 4%;
+	color: #C3D7DF;
+}
+
+.social i:hover{
+	color: #F5F5F5;
+}
+
+.contact{
+	list-style-type: none;
+	text-align:center;
+}
+.contact li{
+	display:inline;
+	color: #C3D7DF;
+}
+
+.contact i{
+	font-size:250%;
+	margin:0 1% 0 2%;
+	padding:0 0 5% 0;
+	color: #C3D7DF;
+}
+
+
