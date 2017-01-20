@@ -98,8 +98,13 @@ nav ul li a:hover{
 }
 
 .banner-inner{
+<<<<<<< HEAD
 	max-width: 1250px;
 	max-height: 595px;
+=======
+    max-width:1230px;
+	margin:0 auto;
+>>>>>>> 3e9bc0d5da1f852134cc77afb274d464d2974952
 }
 
 .one-third{
