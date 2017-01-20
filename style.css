@@ -17,6 +17,14 @@ h2{
 	font-size:150%;
 	line-height:100%;
 	padding-top:5% 0;
+	font-weight:700;
+}
+
+h3{
+	font-size:120%;
+	color: #F5F5F5;
+	line-height:100%;
+	padding-top:5% 0;
 	font-weight:400;
 }
 
@@ -127,6 +135,29 @@ nav ul li a:hover{
 	padding: 7% 0 4% 0;
 }
 
+.inner-wrapper-projects-left{
+	float: left;
+	width: 100%;
+	background-color: #C3D7DF;
+}
 
+article{
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+}
 
+#cplusplus {
+	background-color: #C3D7DF;
+}
+aside{
+	float: right;
+	margin:0 auto;
+	width:50%;
+	height: auto;
+}
 
+#cplusplus2 {
+	background-color: #A2B1C1;
+}
